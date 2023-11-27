@@ -1,0 +1,72 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(to right, #191714, #2234AE);
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  .course-container {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-image {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+  
+  h2 {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  p {
+    color:white;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #paypal-button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0070ba;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005689;
+  }
+  
